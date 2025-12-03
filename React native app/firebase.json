@@ -1,0 +1,12 @@
+{
+  "firestore": {
+    "indexes": [{
+      "collectionGroup": "flashcards",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "chapter_id", "order": "ASCENDING" },
+        { "fieldPath": "timestamp", "order": "ASCENDING" }
+      ]
+    }]
+  }
+}
